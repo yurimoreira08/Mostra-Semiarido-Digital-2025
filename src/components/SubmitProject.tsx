@@ -1,5 +1,5 @@
 import React from "react";
-import { FileUp, CheckCircle } from "lucide-react";
+import { FileUp, CheckCircle, AlertTriangle } from "lucide-react";
 
 const SubmitProject: React.FC = () => {
   return (
@@ -56,6 +56,24 @@ const SubmitProject: React.FC = () => {
               <p className="text-gray-700 mb-8">
                 📌 Inscreva seu projeto e ganhe visibilidade para sua ideia!
               </p>
+
+              <div className="flex flex-col items-center bg-yellow-100 border border-yellow-400 text-yellow-800 px-4 py-3 rounded-lg mb-6 text-sm text-center">
+                <div className="flex items-center mb-1">
+                  <AlertTriangle className="w-5 h-5 mr-2" />
+                  Submissão de projetos inovadores em breve.
+                </div>
+                <p>
+                  Acompanhe no instagram as novidades{" "}
+                  <a
+                    href="https://www.instagram.com/mambeeifpi?igsh=aGx1OGVqbG1jYmdw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:text-yellow-900"
+                  >
+                    @mambee
+                  </a>
+                </p>
+              </div>
 
               <a
                 href="https://forms.gle/yF8tA1ggR2yUhB5E8"

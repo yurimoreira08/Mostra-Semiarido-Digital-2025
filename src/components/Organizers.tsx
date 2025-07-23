@@ -55,7 +55,9 @@ const Organizers: React.FC = () => {
             </p>
             <div className="text-center">
               <a
-                href="mailto:aislanrafael@ifpi.edu.br"
+                href="https://www.instagram.com/mambeeifpi?igsh=aGx1OGVqbG1jYmdw"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg transition duration-300 shadow-md hover:shadow-lg"
               >
                 Entre em contato
