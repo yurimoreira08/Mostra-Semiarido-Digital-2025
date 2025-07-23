@@ -2,31 +2,11 @@ import React from "react";
 
 const Organizers: React.FC = () => {
   const organizers = [
-    {
-      name: "IFPI",
-      image: "public/ifpi.png",
-      role: "Realizador",
-    },
-    {
-      name: "Mambee",
-      image: "public/mambee.png",
-      role: "Apoio",
-    },
-    {
-      name: "Guaribas Valley",
-      image: "public/guaribas.png",
-      role: "Apoio",
-    },
-    {
-      name: "Vale do Mel",
-      image: "public/valedomel.png",
-      role: "Apoio",
-    },
-    {
-      name: "FAPEPI",
-      image: "public/fapepi.png",
-      role: "Apoio",
-    },
+    { name: "IFPI", image: "/ifpi.png", role: "Realizador" },
+    { name: "Mambee", image: "/mambee.png", role: "Apoio" },
+    { name: "Guaribas Valley", image: "/guaribas.png", role: "Apoio" },
+    { name: "Vale do Mel", image: "/valedomel.png", role: "Apoio" },
+    { name: "FAPEPI", image: "/fapepi.png", role: "Apoio" },
   ];
 
   return (
@@ -42,7 +22,7 @@ const Organizers: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-5 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 max-w-6xl mx-auto">
           {organizers.map((org, index) => (
             <div
               key={index}
