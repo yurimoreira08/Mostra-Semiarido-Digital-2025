@@ -1,5 +1,5 @@
 import React from "react";
-import { FileUp, CheckCircle, AlertTriangle } from "lucide-react";
+import { FileUp, CheckCircle } from "lucide-react";
 
 const SubmitProject: React.FC = () => {
   return (
@@ -57,22 +57,26 @@ const SubmitProject: React.FC = () => {
                 📌 Inscreva seu projeto e ganhe visibilidade para sua ideia!
               </p>
 
-              <div className="flex flex-col items-center bg-yellow-100 border border-yellow-400 text-yellow-800 px-4 py-3 rounded-lg mb-6 text-sm text-center">
-                <div className="flex items-center mb-1">
-                  <AlertTriangle className="w-5 h-5 mr-2" />
-                  Submissão de projetos inovadores em breve.
-                </div>
-                <p>
-                  Acompanhe no instagram as novidades{" "}
+              <div className="mb-8">
+                <div className="bg-white border border-amber-300 rounded-xl shadow-md p-6 flex flex-col sm:flex-row sm:items-center gap-4">
+                  <div className="flex-1">
+                    <h4 className="text-lg font-semibold text-amber-800 mb-1">
+                      📄 Edital - MSD 2025
+                    </h4>
+                    <p className="text-sm text-gray-700">
+                      Confira todos os detalhes, critérios e prazos para
+                      submissão de projetos no edital oficial do evento.
+                    </p>
+                  </div>
                   <a
-                    href="https://www.instagram.com/mambeeifpi?igsh=aGx1OGVqbG1jYmdw"
+                    href="https://docs.google.com/document/d/1hnsofFLP1G-pPiRqX9XkYUuW3_EImuSq/edit"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="underline hover:text-yellow-900"
+                    className="inline-block bg-amber-500 hover:bg-amber-600 text-white text-sm font-medium px-4 py-2 rounded-lg transition w-full sm:w-auto text-center"
                   >
-                    @mambee
+                    Ver Edital
                   </a>
-                </p>
+                </div>
               </div>
 
               <a
