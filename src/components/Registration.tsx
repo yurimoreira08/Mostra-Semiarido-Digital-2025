@@ -18,7 +18,7 @@ const Registration: React.FC = () => {
   return (
     <section
       id="inscricao"
-      className="py-24 bg-gradient-to-br from-amber-50 via-orange-50 to-green-50"
+      className="py-24 bg-gradient-to-br from-amber-50 via-orange-50 to-green-50 scroll-smooth"
     >
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
@@ -43,6 +43,14 @@ const Registration: React.FC = () => {
                 >
                   📝 Fazer Inscrição
                   <ChevronRight className="ml-2 h-5 w-5" />
+                </a>
+              </div>
+              <div className="pt-6 text-center">
+                <a
+                  href="#submissao"
+                  className="text-green-600 hover:text-green-800 font-medium underline"
+                >
+                  Submeta também seu projeto
                 </a>
               </div>
               <div className="mt-8 pt-6 border-t border-gray-200">
