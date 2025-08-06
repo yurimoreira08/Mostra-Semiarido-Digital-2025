@@ -78,10 +78,8 @@ const SubmitProject: React.FC = () => {
                   </a>
                 </div>
               </div>
-
-              {/* Botão de ver projetos inscritos */}
               <a
-                href="https://docs.google.com/spreadsheets/d/13Nivee2_sAC-La-O8tsGL8hFQPoHmA7a2o0mfJNXKEk/edit?gid=2043108954#gid=2043108954"
+                href="https://docs.google.com/spreadsheets/d/13Nivee2_sAC-La-O8tsGL8hFQPoHmA7a2o0mfJNXKEk/edit?usp=drivesdk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg"
