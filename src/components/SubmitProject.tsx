@@ -1,5 +1,5 @@
 import React from "react";
-import { FileUp, CheckCircle } from "lucide-react";
+import { CheckCircle, Eye } from "lucide-react";
 
 const SubmitProject: React.FC = () => {
   return (
@@ -78,15 +78,14 @@ const SubmitProject: React.FC = () => {
                   </a>
                 </div>
               </div>
-
               <a
-                href="https://forms.gle/yF8tA1ggR2yUhB5E8"
+                href="https://docs.google.com/spreadsheets/d/13Nivee2_sAC-La-O8tsGL8hFQPoHmA7a2o0mfJNXKEk/edit?gid=2043108954#gid=2043108954"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-3 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-lg transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg"
+                className="inline-flex items-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg"
               >
-                <FileUp className="mr-2 h-5 w-5" />
-                📤 Submeter Projeto
+                <Eye className="mr-2 h-5 w-5" />
+                🔍 Ver projetos inscritos
               </a>
             </div>
 
