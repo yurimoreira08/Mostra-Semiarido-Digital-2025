@@ -32,10 +32,10 @@ const Hero: React.FC = () => {
 
           <div className="animate-bounce-subtle">
             <a
-              href="#inscricao"
+              href="https://drive.google.com/drive/folders/1Fd0Aa2UWENPKBA4kozzefgs67hCj85Cw"
               className="inline-flex items-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
-              ✅ Inscreva-se Gratuitamente
+              Ver fotos do evento
             </a>
           </div>
 
